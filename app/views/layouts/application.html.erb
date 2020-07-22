@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <%= t("title") %>
-    <%= link_to "English", locale: :en %>
-    <%= link_to "Vietnamese", locale: :vi" %>
+  <title><%= yield :title %> | <%= t "title" %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 

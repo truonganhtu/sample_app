@@ -1,2 +1,16 @@
 vi:
   title: 'Xin Chao!'
+  hello: "Xin chào"
+  title: "Ứng dụng mẫu Ruby on Rails Tutorial"
+  static_pages:
+    home:
+      home_title: "Ứng dụng mẫu"
+      home_content0: "Đây là trang chủ cho ứng dụng mẫu"
+      home_content1: "Ruby on Rails"
+      home_content2: "Ứng dụng mẫu"
+    help:
+      help_title: "Trợ giúp"
+      help_content0: "Nhận trợ giúp về hướng dẫn RoR tại trang "
+      help_content1: "Rails Tutorial."
+      help_content2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem trong sách "
+      help_content3: "Ruby on Rails Tutorial."
