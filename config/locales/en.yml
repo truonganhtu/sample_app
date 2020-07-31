@@ -1,15 +1,49 @@
 en:
   hello: "Hello world"
   title: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    header:
+      logo: "Simple App"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      footer_the: ""
+      footer_ror_tutorial: "Ruby on Rails Tutorial"
+      footer_by: "by"
+      footer_news: "News"
+      footer_about: "About us"
+      footer_contact: "Contact us"
   static_pages:
     home:
-      home_title: "Sample App"
-      home_content0: "This is the home page for the"
-      home_content1: "Ruby on Rails Tutorial"
-      home_content2: "Sample application."
+      welcome: "Welcome to the Sample App"
+      title: "Sample App"
+      home_homepage: "This is the home page for the"
+      home_ror_tutorial: "Ruby on Rails Tutorial"
+      home_sample_app: " sample application."
+      home_signup: "Sign up now!"
     help:
-      help_title: "Help"
-      help_content0: "Get help on the Ruby on Rails Tutorial at the "
-      help_content1: "Rails Tutorial Help page."
-      help_content2: "To get help on this sample app, see the "
-      help_content3: "Ruby on Rails Tutorial book."
+      title: "Help"
+      help_ror_tutorial: "Get help on the Ruby on Rails Tutorial at the "
+      help_homepage: "Rails Tutorial Help page."
+      help_sample_app: "To get help on this sample app, see the "
+      help_ror_book: "Ruby on Rails Tutorial book."
+    about:
+      title: "About"
+      about_the: "The "
+      about_ror_tutorial: "Ruby on Rails Tutorial"
+      about_part: ", part of the "
+      about_learn_enough: "Learn Enough"
+      about_family_tutorial: "family of tutorials, is a "
+      about_book: "book"
+      about_and: "and"
+      about_screencast: "screencast series"
+      about_development: "to teach web development with "
+      about_ror: "Ruby on Rails. "
+      about_sample_tutorial: "This is the sample app for the tutorial."
+    contact:
+      contact_rails: "Contact the Ruby on Rails Tutorial about the sample app at the "
+      contact_page: "contact page"
+  users:
+      new:
+      signup_message: "This will be a signup page for new users."
