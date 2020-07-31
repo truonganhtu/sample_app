@@ -52,4 +52,4 @@ vi:
       contact_page: "trang liên hệ"
   users:
     new:
-      signup_message: "Đây là trang đăng nhập cho người dùng mới."
+      signup_message: "Đây là trang đăng ký cho người dùng mới."
