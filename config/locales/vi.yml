@@ -50,6 +50,23 @@ vi:
     contact:
       contact_rails: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại about "
       contact_page: "trang liên hệ"
+  shared:
+    error_messages:
+      error_message: "Mẫu này bao gồm "
+      error: "lỗi"
   users:
+    create:
+      welcome_message: "Chào mừng đến với ứng dụng mẫu!"
+    show:
+      fail_message: "Không tìm thấy người dùng"
+    signup: "Đăng ký"
     new:
       signup_message: "Đây là trang đăng ký cho người dùng mới."
+      welcome_message: "Welcome to the Sample App!"
+      error_message: "Biểu mẫu có chứa "
+      error: "lỗi"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      create_account: "Tạo tài khoản"

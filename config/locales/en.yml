@@ -1,6 +1,12 @@
 en:
   hello: "Hello world"
   title: "Ruby on Rails Tutorial Sample App"
+  login: "Login"
+  signup: "Sign up"
+  contact: "Contact"
+  home: "Home"
+  help: "Help"
+  michaelhartl: "Michael Hartl"
   layouts:
     header:
       logo: "Simple App"
@@ -44,6 +50,23 @@ en:
     contact:
       contact_rails: "Contact the Ruby on Rails Tutorial about the sample app at the "
       contact_page: "contact page"
+  shared:
+    error_messages:
+      error_message: "The form contains "
+      error: "error"
   users:
+      create:
+        welcome_message: "Welcome to the Sample App!"
+      show:
+        fail_message: "User not found"    
+      signup: "Sign up"
       new:
-      signup_message: "This will be a signup page for new users."
+        signup_message: "This will be a signup page for new users."
+        welcome_message: "Welcome to the Sample App!"
+        error_message: "The form contains "
+        error: "error"
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        confirmation: "Password Confirmation"
+        create_account: "Create my account"
