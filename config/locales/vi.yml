@@ -1,11 +1,6 @@
 vi:
   hello: "Xin chào"
   title: "Ứng dụng mẫu Ruby on Rails Tutorial"
-  login: "Đăng nhập"
-  signup: "Đăng ký"
-  contact: "Liên lạc"
-  home: "Trang chủ"
-  help: "Trợ giúp"
   michaelhartl: "Michael Hartl"
   layouts:
     header:
@@ -13,6 +8,16 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      signup: "Đăng ký"
+      contact: "Liên lạc"
+      languages: "Ngôn ngữ"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+      users: "Các người dùng"
+      account: "Tài khoản"
+      profile: "Trang cá nhân"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       footer_the: ""
       footer_ror_tutorial: "Hướng dẫn Ruby on Rails"
@@ -59,8 +64,8 @@ vi:
       welcome_message: "Chào mừng đến với ứng dụng mẫu!"
     show:
       fail_message: "Không tìm thấy người dùng"
-    signup: "Đăng ký"
     new:
+      title: "Đăng ký"
       signup_message: "Đây là trang đăng ký cho người dùng mới."
       welcome_message: "Welcome to the Sample App!"
       error_message: "Biểu mẫu có chứa "
@@ -70,3 +75,14 @@ vi:
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
       create_account: "Tạo tài khoản"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      sign_up_text: "Đăng ký ngay!"
+      new_user: "Người dùng mới?"
+      submit: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+    create:
+      invalid_credentials: "Sai tên đăng nhập hoặc mật khẩu!"
+      login_successfully: "Đăng nhập thành công!"

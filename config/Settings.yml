@@ -5,6 +5,7 @@ contact_page: "https://www.railstutorial.org/contact"
 screencasts: "https://screencasts.railstutorial.org/"
 michaelhartl: "https://www.michaelhartl.com/"
 width: "200px"
+avatar_size: 80
 user:
   username_maximum: 50
   email_maximum: 255

@@ -1,11 +1,6 @@
 en:
   hello: "Hello world"
   title: "Ruby on Rails Tutorial Sample App"
-  login: "Login"
-  signup: "Sign up"
-  contact: "Contact"
-  home: "Home"
-  help: "Help"
   michaelhartl: "Michael Hartl"
   layouts:
     header:
@@ -13,6 +8,16 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      signup: "Sign up"
+      contact: "Contact"
+      languages: "Languages"
+      english: "English"
+      vietnamese: "Vietnamese"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     footer:
       footer_the: ""
       footer_ror_tutorial: "Ruby on Rails Tutorial"
@@ -59,8 +64,8 @@ en:
         welcome_message: "Welcome to the Sample App!"
       show:
         fail_message: "User not found"    
-      signup: "Sign up"
       new:
+        title: "Sign up"
         signup_message: "This will be a signup page for new users."
         welcome_message: "Welcome to the Sample App!"
         error_message: "The form contains "
@@ -70,3 +75,14 @@ en:
         password: "Password"
         confirmation: "Password Confirmation"
         create_account: "Create my account"
+  sessions:
+    new:
+      title: "Login"
+      sign_up_text: "Sign up now!"
+      new_user: "New user?"
+      submit: "Log in"
+      email: "Email"
+      password: "Password"
+    create:
+      invalid_credentials: "Invalid email/password combination"
+      login_successfully: "Logged in successfully!"
