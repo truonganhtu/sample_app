@@ -20,17 +20,17 @@
           </ul>
         </li>
         <% else %>
-        <li><%= link_to t(".login"), "#" %></li>
+        <li><%= link_to t(".login"), login_path(locale) %></li>
         <% end %>
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <%= t ".languages" %>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <%= link_to t(".english"), {locale: "en"}, class: "dropdown-item" %>
-          <%= link_to t(".vietnamese"), {locale: "vi"}, class: "dropdown-item" %>
-        </div>
-      </li>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <%= link_to t(".english"), {locale: "en"}, class: "dropdown-item" %>
+            <%= link_to t(".vietnamese"), {locale: "vi"}, class: "dropdown-item" %>
+          </div>
+        </li>
       </ul>
     </nav>
   </div>
