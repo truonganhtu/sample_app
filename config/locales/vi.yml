@@ -83,7 +83,6 @@ vi:
       submit: "Đăng nhập"
       email: "Email"
       password: "Mật khẩu"
-      remember_me: Giữ trạng thái đăng nhập
     create:
       invalid_credentials: "Sai tên đăng nhập hoặc mật khẩu!"
       login_successfully: "Đăng nhập thành công!"
