@@ -83,6 +83,7 @@ en:
       submit: "Log in"
       email: "Email"
       password: "Password"
+      remember_me: Remember me
     create:
       invalid_credentials: "Invalid email/password combination"
       login_successfully: "Logged in successfully!"
