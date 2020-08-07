@@ -60,21 +60,41 @@ en:
       error_message: "The form contains "
       error: "error"
   users:
-      create:
-        welcome_message: "Welcome to the Sample App!"
-      show:
-        fail_message: "User not found"    
-      new:
-        title: "Sign up"
-        signup_message: "This will be a signup page for new users."
-        welcome_message: "Welcome to the Sample App!"
-        error_message: "The form contains "
-        error: "error"
-        name: "Name"
-        email: "Email"
-        password: "Password"
-        confirmation: "Password Confirmation"
-        create_account: "Create my account"
+    index:
+      all_users: "All users"
+      please_log_in: "Please log in."
+      you_sure?: "You sure?"
+      delete: "Delete"
+      fail_message: "User not found"
+    create:
+      welcome_message: "Welcome to the Sample App!"
+    show:
+      fail_message: "User not found"    
+    new:
+      title: "Sign up"
+      signup_message: "This will be a signup page for new users."
+      welcome_message: "Welcome to the Sample App!"
+      error_message: "The form contains "
+      error: "error"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Password Confirmation"
+      create_account: "Create my account"
+    destroy:
+      user_deleted: "User deleted"
+    edit:
+      edit_user: "Edit user"
+      update_your_profile: "Update your profile"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      save_changes: "Save changes"
+      change: "change"
+    update:
+      profile_updated: "Profile updated"
+      update_failed: "Updated failed"
   sessions:
     new:
       title: "Login"
@@ -83,7 +103,14 @@ en:
       submit: "Log in"
       email: "Email"
       password: "Password"
-      remember_me: Remember me
+      remember_me: "Remember me"
     create:
       invalid_credentials: "Invalid email/password combination"
       login_successfully: "Logged in successfully!"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
