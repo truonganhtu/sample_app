@@ -12,3 +12,6 @@ user:
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   password_minimum: 6
 checkbox_checked: 1
+gravatar_email_url: "https://gravatar.com/emails"
+items_per_pages: 30
+gravatar_avatar_url: "https://secure.gravatar.com/avatar/"

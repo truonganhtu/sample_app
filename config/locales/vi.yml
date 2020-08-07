@@ -60,6 +60,12 @@ vi:
       error_message: "Mẫu này bao gồm "
       error: "lỗi"
   users:
+    index:
+      all_users: "Tất cả người dùng"
+      please_log_in: "Hãy đăng nhập"
+      delete: "Xóa"
+      you_sure?: "Bạn có chắc chắn?"
+      fail_message: "Không tìm thấy người dùng"
     create:
       welcome_message: "Chào mừng đến với ứng dụng mẫu!"
     show:
@@ -75,6 +81,20 @@ vi:
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
       create_account: "Tạo tài khoản"
+    destroy:
+      user_deleted: "Người dùng đã được xóa"
+    edit:
+      edit_user: "Chỉnh sửa người dùng"
+      update_your_profile: "Cập nhật hồ sơ của bạn"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      save_changes: "Lưu thay đổi"
+      change: "thay đổi"
+    update:
+      profile_updated: "Hồ sơ đã được cập nhật"
+      update_failed: "Cập nhật thất bại"
   sessions:
     new:
       title: "Đăng nhập"
@@ -83,7 +103,14 @@ vi:
       submit: "Đăng nhập"
       email: "Email"
       password: "Mật khẩu"
-      remember_me: Giữ trạng thái đăng nhập
+      remember_me: "Giữ trạng thái đăng nhập"
     create:
       invalid_credentials: "Sai tên đăng nhập hoặc mật khẩu!"
       login_successfully: "Đăng nhập thành công!"
+  views:
+    pagination:
+      first: "« Đầu"
+      last: "Cuối »"
+      previous: "‹ Trước"
+      next: "Tiếp ›"
+      truncate: "…"
