@@ -68,6 +68,7 @@ en:
       fail_message: "User not found"
     create:
       welcome_message: "Welcome to the Sample App!"
+      fail_message: "Error signing up!"
     show:
       fail_message: "User not found"    
     new:
@@ -107,6 +108,19 @@ en:
     create:
       invalid_credentials: "Invalid email/password combination"
       login_successfully: "Logged in successfully!"
+      please_activate: "Account not activated. Check your email for the activation link."
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      invalid_activation_link: "Invalid activation link"
+  user_mailer:
+    please_activate: "Please check your email to activate your account."
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate_link: "Activate"
+      hi: "Hi"      
   views:
     pagination:
       first: "« FIRST"
