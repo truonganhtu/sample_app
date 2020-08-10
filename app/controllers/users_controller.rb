@@ -57,7 +57,7 @@ class UsersController < ApplicationController
     return if logged_in?
 
     store_location
-    flash[:danger] = t ".please_log_in"
+    flash[:danger] = t "users.edit.unauthenticated"
     redirect_to login_url
   end
 
