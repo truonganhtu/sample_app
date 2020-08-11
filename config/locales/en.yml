@@ -67,6 +67,9 @@ en:
     user_info:
       view_my_profile: "view my profile"
       micropost: "micropost"
+    stats:
+      following: following
+      followers: followers    
   users:
     index:
       all_users: "All users"
@@ -106,6 +109,14 @@ en:
     update:
       profile_updated: "Profile updated"
       update_failed: "Updated failed"
+    follow:
+      submit: Follow
+    unfollow:
+      submit: Unfollow
+    following:
+      title: Following
+    followers:
+      title: Followers
   sessions:
     new:
       title: "Login"
