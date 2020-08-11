@@ -10,3 +10,22 @@ user:
   email_maximum: 255
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   password_minimum: 6
+checkbox_checked: 1
+gravatar_email_url: "https://gravatar.com/emails"
+items_per_pages: 30
+gravatar_avatar_url: "https://secure.gravatar.com/avatar/"
+time:
+  expried: 2
+size:
+  logo: 200
+  avatar:
+    default: 80
+    small: 50
+  image:
+    normal: 500
+  max_file_size: 5
+micropost:
+  max_length: 140
+  content_type: /%w(image/jpeg image/gif image/png)/
+  image_type: "image/jpeg,image/gif,image/png"
+  resize_limit: [500, 500]

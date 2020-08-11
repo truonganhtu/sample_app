@@ -25,6 +25,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.items_per_pages
     redirect_to root_path && return if @user&.activated
   end
 
@@ -51,14 +52,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit User::USERS_PARAMS
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "users.edit.unauthenticated"
-    redirect_to login_url
   end
 
   def correct_user
