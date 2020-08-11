@@ -70,5 +70,7 @@ Rails.application.configure do
     port: ENV["mail_port"],
     authentication: :plain,
     enable_starttls_auto: true
-  }  
+  }
+
+  config.middleware.use I18n::JS::Middleware
 end

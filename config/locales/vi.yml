@@ -93,6 +93,7 @@ vi:
       password_confirmation: "Xác nhận mật khẩu"
       save_changes: "Lưu thay đổi"
       change: "thay đổi"
+      unauthenticated: "Đăng nhập để tiếp tục."
     update:
       profile_updated: "Hồ sơ đã được cập nhật"
       update_failed: "Cập nhật thất bại"
@@ -105,6 +106,7 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       remember_me: "Giữ trạng thái đăng nhập"
+      forgot_password: "Quên mật khẩu?"
     create:
       invalid_credentials: "Sai tên đăng nhập hoặc mật khẩu!"
       login_successfully: "Đăng nhập thành công!"
@@ -121,6 +123,32 @@ vi:
       welcome: "Chào mừng tới ứng dụng mẫu! Ấn vào link bên dưới để kích hoạt tài khoản của bạn:"
       activate_link: "Kích hoạt"
       hi: "Xin chào"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      title: "Đặt lại mật khẩu"
+      link_html: "<p>Bấm vào link bên dưới để đặt lại mật khẩu:</p>
+      %{href}
+      <p>Đường dẫn sẽ hết hạn sau 2h.</p>
+      <p> Nếu bạn không gửi yêu cầu này, xin vui lòng không bấm vào link bên dưới và mật khẩu của bạn sẽ không thay đổi! </p>"
+      link_text: "Bấm vào link bên dưới để đặt lại mật khẩu:
+      %{href} Đường dẫn sẽ hết hạn sau 2h.
+      Nếu bạn không gửi yêu cầu này, xin vui lòng không bấm vào link bên dưới và mật khẩu của bạn sẽ không thay đổi!"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit: "Đặt lại mật khẩu"
+    create:
+      email_sent: "Email hướng dẫn đặt lại mật khẩu đã được gửi."
+      sending_error: "Không tìm thấy tài khoản"
+    update:
+      reset_password_success: "Mật khẩu đã được đặt lại."
+      reset_password_fail: "Đã có lỗi khi đặt lại mật khẩu"
+      expired: "Đặt lại mật khẩu đã hết hạn."
+    edit:
+      title: "Đặt lại mật khẩu"
+      submit: "Đặt lại"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
   views:
     pagination:
       first: "« Đầu"
