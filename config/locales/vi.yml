@@ -67,6 +67,9 @@ vi:
     user_info:
       view_my_profile: "Xem trang cá nhân"
       micropost: "bài đăng"
+    stats:
+      following: đang theo dõi
+      followers: người theo dõi
   users:
     index:
       all_users: "Tất cả người dùng"
@@ -106,6 +109,14 @@ vi:
     update:
       profile_updated: "Hồ sơ đã được cập nhật"
       update_failed: "Cập nhật thất bại"
+    follow:
+      submit: Theo dõi
+    unfollow:
+      submit: Bỏ theo dõi
+    following:
+      title: Đang theo dõi
+    followers:
+      title: Người theo dõi
   sessions:
     new:
       title: "Đăng nhập"

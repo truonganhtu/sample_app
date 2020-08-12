@@ -21,6 +21,7 @@ size:
   avatar:
     default: 80
     small: 50
+    xs: 30
   image:
     normal: 500
   max_file_size: 5

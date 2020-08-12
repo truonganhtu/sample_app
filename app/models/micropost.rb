@@ -4,7 +4,8 @@ class Micropost < ApplicationRecord
 
   has_one_attached :image
 
-  scope :recent_posts, ->{order created_at: :desc}
+  scope :date_desc_posts, ->{order created_at: :desc}
+  scope :users_feed, ->(user_ids){where user_id: user_ids}
 
   validates :user_id, presence: true
   validates :content, presence: true,
