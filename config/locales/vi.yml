@@ -33,6 +33,7 @@ vi:
       home_ror_tutorial: "Ruby on Rails"
       home_sample_app: "."
       home_signup: "Đăng ký ngay!"
+      feed: "Bảng tin bài đăng"
     help:
       title: "Trợ giúp"
       help_ror_tutorial: "Nhận trợ giúp về hướng dẫn RoR tại trang "
@@ -59,6 +60,13 @@ vi:
     error_messages:
       error_message: "Mẫu này bao gồm "
       error: "lỗi"
+    micropost_form:
+       placeholder: "Đăng bài mới..."
+       submit: "Đăng"
+       max_size_alert: "Kích cỡ tệp tin tối đa là 5mb."
+    user_info:
+      view_my_profile: "Xem trang cá nhân"
+      micropost: "bài đăng"
   users:
     index:
       all_users: "Tất cả người dùng"
@@ -71,6 +79,7 @@ vi:
       fail_message: "Đã có lỗi khi đăng ký!"
     show:
       fail_message: "Không tìm thấy người dùng"
+      microposts: "Bài đăng"
     new:
       title: "Đăng ký"
       signup_message: "Đây là trang đăng ký cho người dùng mới."
@@ -156,3 +165,17 @@ vi:
       previous: "‹ Trước"
       next: "Tiếp ›"
       truncate: "…"
+  microposts:
+      create:
+        success: "Đã tạo bài viết!"
+        fail: "Đã có lỗi khi tạo bài viết!"
+      destroy:
+        success: "Đã xoá bài viết"
+        fail: "Xóa bài viết không thành công"
+      micropost:
+        post_time: "Đăng vào %{time} trước"
+        delete: "Xoá"
+        confirm: "Bạn có chắc chắn?"
+      errors:
+        image_format: "Sai định dạng ảnh"
+        size_too_big: "ảnh phải nhỏ hơn 5MB"

@@ -33,6 +33,7 @@ en:
       home_ror_tutorial: "Ruby on Rails Tutorial"
       home_sample_app: " sample application."
       home_signup: "Sign up now!"
+      feed: "Micropost Feed"
     help:
       title: "Help"
       help_ror_tutorial: "Get help on the Ruby on Rails Tutorial at the "
@@ -59,6 +60,13 @@ en:
     error_messages:
       error_message: "The form contains "
       error: "error"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      submit: "Post"
+      max_size_alert: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_my_profile: "view my profile"
+      micropost: "micropost"
   users:
     index:
       all_users: "All users"
@@ -70,7 +78,8 @@ en:
       welcome_message: "Welcome to the Sample App!"
       fail_message: "Error signing up!"
     show:
-      fail_message: "User not found"    
+      fail_message: "User not found"
+      microposts: "Microposts"    
     new:
       title: "Sign up"
       signup_message: "This will be a signup page for new users."
@@ -156,3 +165,17 @@ en:
       previous: "‹ PREV"
       next: "NEXT ›"
       truncate: "…"
+  microposts:
+      create:
+        success: "Micropost created!"
+        fail: "Error creating micropost"
+      destroy:
+        success: "Micropost deleted"
+        fail: "Delete micro post un-successfully"
+      micropost:
+        post_time: "Post %{time} ago"
+        delete: "Delete"
+        confirm: "You sure?"
+      errors:
+        image_format: "must be a valid image format"
+        size_too_big: "should be less than 5MB"
